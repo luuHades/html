@@ -1,0 +1,75 @@
+body {
+    height: 75vh;
+    margin: 0px;
+    text-align: center;
+    font-family:cursive;
+    color: #fff;
+    background-image: url(/img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg);
+    background-color: black;
+    background-position:top;  
+    background-repeat:no-repeat ;
+    background-size:cover;
+    animation-name: none;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes Bgrcolor {
+    from { background-image: url(/img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg); }
+    to {background-image: none; background-color: black;}
+}
+#ReName{
+    font-family: cursive;
+    animation-name: forImg;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    text-decoration-line:none;
+}
+#img1{
+    height: 100%;
+    width: 100%;
+}
+#imgs {
+    border-radius: 500px;
+    height: 50vh;
+    width: 50vh;
+    animation-name: forImg;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+@keyframes forImg {
+    from {opacity: 0;}
+    to {opacity: 4;}
+}
+#Zodiac{
+    margin: 0px;
+}
+body .ChangeF {
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    width: 100%;
+}
+body .ChangeF .q{
+    display: inline-block;
+    margin: 0px;
+}
+#textfont{
+    text-align: center;
+    width: 200px;
+}
+
+body .ChangeF .line{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size:17px;
+    background-color: ghostwhite;
+    color: black;
+    border-radius: 15px;
+    padding: 6px;
+    margin: 0px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/School/Zodiac.css">
+    <script src="/School/Zodiac.js"></script>
+    <title>Document</title>
+</head>
+<body id="test">
+    <h1>Try it and find out what your Zodiac sign is !!!</h1>
+    <p>Full Name :<input type="text" id="name" placeholder="Enter your name">   <button onclick="InName()"> OK</button> </p>
+    <p>Date of birth :<input type="date" id="dt" onchange="getObject()"> </p>
+    <h2 id="ReName"></h2>
+    <h2 id="Zodiac"></h2>
+    <div id="img1"></div>
+    <div class="ChangeF">
+        <p class="q">Font selection : </p>
+        <select name="Font" id="textfont" onchange="ChangeFont()">
+            <option value="">--Select--</option>
+            <option value="0">Cursive</option>
+            <option value="1">Georgia</option>
+            <option value="2">Verdana</option>
+            <option value="3">Fantasy</option>
+        </select>
+        <br>
+        <p class="line">Decorate :</p>
+        <input type="radio" name="decorated"  value="none" onclick="none()" >none
+        <input type="radio" name="decorated" value="underline " onclick="underline()">underline
+        <input type="radio" name="decorated" value="overline" onclick="overline()"> overline
+        <input type="radio" name="decorated" value="through" onclick="through()"> through
+    </div>
+</body>
+</html>

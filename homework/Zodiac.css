@@ -4,7 +4,7 @@ body {
     text-align: center;
     font-family:cursive;
     color: #fff;
-    background-image: url(/img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg);
+    background-image: url(img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg);
     background-color: black;
     background-position:top;  
     background-repeat:no-repeat ;
@@ -15,7 +15,7 @@ body {
     
 }
 @keyframes Bgrcolor {
-    from { background-image: url(/img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg); }
+    from { background-image: url(img/Zodiac/357734-download-wallpaper-2780x2780-starry-sky-galaxy-stars-night-sky.jpg); }
     to {background-image: none; background-color: black;}
 }
 #ReName{

@@ -6,3 +6,5 @@ function ClickPetSite(){
         SubMenu.style.display = 'block';}
     else SubMenu.style.display ='none';
 }
+
+const Others_img= document.querySelector('.Others-img');

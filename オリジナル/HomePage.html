@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="PetSite.css">
+    <link rel="stylesheet" href="Main.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=M+PLUS+Rounded+1c:wght@500&family=Praise&display=swap');
     </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'>
+    <link rel="stylesheet" href="Slide/style.css">
+    
     <title>PetHome</title>
 </head>
 <body>
     <div>
-        <header class="header">
+        <header class="header"> 
             <nav class="nav">
                 <ul id="Menu">
                     <li >
-                        <a href="" id="Logo"></a>
+                        <a href="HomePage.html" id="Logo"></a>
                     </li>
                     <li class="HomePage">
-                        <a href=""> ホームページ</a>
+                        <a href="HomePage.html"> ホームページ</a>
                     </li>
                     <li class="PetSite" >
                         <a  onclick="ClickPetSite()">
@@ -43,50 +49,190 @@
                     <!-- <li class="About" >
                         <a href="">Webサイトについて</a>
                      </li> -->
-                    <li class="Contact">
+                     <li class="Contact">
                         <a href="" class="Contact">お問い合わせ</a> 
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
+    <div class="slide">
+        <div class="main-content">
+            <section class="slideshow">
+              <div class="slideshow-inner">
+                <div class="slides">
+                  <div class="slide is-active ">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">Dogs</div>
+                        <div class="text">
+                          <h1>Dogs</h1>
+                        </div> 
+                        <a href="SideMenu/Dog.html" class="btn">
+                          <span class="btn-inner">もっと見る</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container"> 
+                      <img src="img/angel-luciano-LATYeZyw88c-unsplash.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">Cats</div>
+                        <div class="text">
+                          <p>Cats</p>
+                        </div> 
+                        <a href="SideMenu/Cat.html" class="btn">
+                          <span class="btn-inner">もっと見る</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <img src="img/ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">Others Pet</div>
+                        <div class="text">
+                          <p>Others Pet</p>
+                        </div> 
+                        <a href="SideMenu/OtherPets.html" class="btn">
+                          <span class="btn-inner">もっと見る</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <img src="img/sgalagaev--5iSCtrJX5o-unsplash.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">contact to me</div>
+                        <div class="text">
+                          <p>Contact To Me</p>
+                        </div> 
+                        <a href="" class="btn">
+                          <span class="btn-inner">もっと見る</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container"> 
+                      <img src="img/jametlene-reskp-VDrErQEF9e4-unsplash.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                </div>
+                <div class="pagination">
+                  <div class="item is-active"> 
+                    <span class="icon">1</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">2</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">3</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">4</span>
+                  </div>
+                </div>
+                <div class="arrows">
+                  <div class="arrow prev">
+                    <span class="svg svg-arrow-left">
+                      <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+                      <span class="alt sr-only"></span>
+                    </span>
+                  </div>
+                  <div class="arrow next">
+                    <span class="svg svg-arrow-right">
+                      <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+                      <span class="alt sr-only"></span>
+                    </span>
+                  </div>
+                </div>
+              </div> 
+            </section>
+          </div>
+    </div>
     <div class="Pets">
             <!-- Dog with pet 
-            food and water 
+                food and water 
             love and care -->
             <div class="Dog">
                 <div class="Dog-img-wrap">
-                    <a href="" class="Dog-img-link">
-                        <img src="img/Dog-img.jpg" alt="" class="Dog-img">
+                    <a href="SideMenu/Dog.html" class="Dog-img-link">
+                        <img src="img/oscar-sutton-yihlaRCCvd4-unsplash.jpg" alt="" class="Dog-img">
                     </a>
                 </div>
                 <div class="Dog-text">
-                    <p>;lasd;asaaaaaaaaaaaaaa <br> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                  <h1>イヌは人間の最良の友</h1>
+                  <p>犬は何があってもそばにいるです。 </p>
+                  <h3>犬は友達で食べ物ではない。</h3>
+                  <P>犬は人間の気持ちがわかります。</P>
+                  <p>犬を愛してください。</p>
                 </div>
             </div>
-            <div class="PetMeal">
-                <div class="PetMeal-text">
-                    <p>;lasd;asaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <div class="Cat">
+                <div class="Cat-text">
+                  <h1>猫は人生の一部</h1>
+                  <p>猫を被り。</p>
+                  <p>女の心は猫の眼。</p>
+                  <h3>猫の手も借りたい。</h3>
+                  <p>猫は長者の生まれ変わり。</p>
+                  <P>猫を大事にしてください</P>
                 </div>
-                <div class="PetMeal-img-wrap">
-                    <a href="" class="PetMeal-img-link">
-                        <img src="PetSite/test.jpg" alt="" class="Pet-img">
+                <div class="Cat-img-wrap">
+                    <a href="SideMenu/Cat.html" class="Cat-img-link">
+                        <img src="img/alex-meier-KGiQFgF7dkc-unsplash.jpg" alt="" class="Pet-img">
                     </a>
                 </div>
             </div>
-            <div class="Love_Care" >
-                <div class="Love_Care-img-wrap">
-                    <a href="" class="Love_Care-img-link">
-                        <img src="PetSite/test.jpg" alt="" class="Love_Care-img">
+            <div class="Others" >
+                <div class="Others-img-wrap">
+                    <a href="SideMenu/OtherPets.html" class="Others-img-link">
+                        <img src="img/christopher-alvarenga-3osGqRRtQBE-unsplash.jpg" alt="" class="Others-img">
                     </a>
                 </div>
-                <div class="Love_Care-text">
-                    <p>ass'lknaslasdllashsvashd</p>
+                <div class="Others-text">
+                    <h1>他のペット</h1>
+                    <p>ペットだと言ったら</p>
+                    <h3>家族の一部です。</h3>
                 </div>
             </div>
+    </div>
+    <div class="endSide">
+      <div class="endSide-Logo">
+        <a href="HomePage.html" class="Logo"></a>
+      </div>
+      <div class="icon-warp">
+        <div class="Social">
+          <h1>My Social Account:</h1>
+        </div>
+          <div class="fb-wrap">
+              <a href="#" class="fa fa-facebook"></a>
+          </div>
+          <div class="twitter-warp">
+              <a href="#" class="fa fa-twitter"></a>
+          </div>
+          <div class="instagram-warp">
+              <div class="instagram-background-hover">
+              </div> 
+              <a href="#" class="fa fa-instagram"></a>
+          </div>
+          <div class="youtube-warp">
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
     </div>
 
     <script src="PetSite.js"></script>
     <script src="slow-scroll.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    <script  src="/Slide/script.js"></script>
 </body>
 </html>

@@ -120,12 +120,13 @@ img{
     box-sizing: border-box;
     /* transition: 0.5s; */
     transition: 0.3s;
+    color: #fff;
 }
 .endSide:hover{
     background-color: #fff;
+    color: #ff8da3 ;
 }
 .Social{
-    color: #000;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Praise', cursive;
 }

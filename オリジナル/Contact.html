@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=M+PLUS+Rounded+1c:wght@500&family=Praise&display=swap');
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'>
+    <link rel="stylesheet" href="Slide/style.css">
+    
+    <title>PetHome</title>
+</head>
+<body>
+    <div>
+        <header class="header"> 
+            <nav class="nav">
+                <ul id="Menu">
+                    <li >
+                        <a href="HomePage.html" id="Logo"></a>
+                    </li>
+                    <li class="HomePage">
+                        <a href="HomePage.html"> ホームページ</a>
+                    </li>
+                    <li class="PetSite" >
+                        <a  onclick="ClickPetSite()">
+                            ペットを見る
+                        </a>                            
+                        <ul class="SubMenu">
+                            <li>
+                                <a href="SideMenu/Dog.html" >ワンちゃん</a>
+                            </li>
+                            <li>
+                                <a href="SideMenu/Cat.html" >猫ちゃん</a>
+                            </li>
+                            <li>
+                                <a href="SideMenu/OtherPets.html" >他のペット</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="ClosestAnimalHospital">
+                        <a href="ClosestHospital.html">近い動物院</a>                        
+                    </li>
+                    <!-- <li class="About" >
+                        <a href="">Webサイトについて</a>
+                     </li> -->
+                     <li class="Contact">
+                        <a href="Contact.html" class="Contact-link">お問い合わせ</a> 
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="Contact-text">
+        <h1>Contact to my email:</h1>
+        <p>tranvanluu2110@gmail.com</p>
+    </div>
+    <div class="endSide">
+      <div class="endSide-Logo">
+        <a href="HomePage.html" class="Logo"></a>
+      </div>
+      <div class="icon-warp">
+        <div class="Social">
+          <h1>My Social Account:</h1>
+        </div>
+          <div class="fb-wrap">
+              <a href="#" class="fa fa-facebook"></a>
+          </div>
+          <div class="twitter-warp">
+              <a href="#" class="fa fa-twitter"></a>
+          </div>
+          <div class="instagram-warp">
+              <div class="instagram-background-hover">
+              </div> 
+              <a href="#" class="fa fa-instagram"></a>
+          </div>
+          <div class="youtube-warp">
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+    </div>
+
+    <script src="PetSite.js"></script>
+    <script src="slow-scroll.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    <script  src="/Slide/script.js"></script>
+</body>
+</html>

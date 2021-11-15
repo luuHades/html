@@ -218,7 +218,7 @@ img{
     background-color: #fff;
     padding: 55px 100px;
     margin: 25px 18vh;
-    background-image: url('../img/Logo.png');
+    background-image: url('img/Logo.png');
     background-position-y: -40px;
     background-position-x: center;
     border: solid black  ;

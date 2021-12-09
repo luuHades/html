@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie</title>
+    <title>Contact</title>
     <!-- Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -18,15 +18,16 @@
     <link rel="stylesheet" href="./assets/css/preload.css">
     <script src="./assets/js/jquery.js"></script>
 </head>
-<script >
-    $(function(){
-        $("#btn_contact").click(function(){
-            $.post("http://localhost:8080/addSteer",{},function(){
-                
+<script>
+    $(function () {
+        $("#btn_contact").click(function () {
+            $.post("http://localhost:8080/addSteer", {}, function () {
+
             })
         })
     })
 </script>
+
 <body>
     <!-- Preloader -->
     <div id="preload">
@@ -53,7 +54,7 @@
         <nav class="navbar navbar-expand-md navigation-wrapper">
             <div class="container-lg px-3">
                 <div class="nav-logo">
-                    <a href="#" class="nav-logo-link">
+                    <a href="index.html" class="nav-logo-link">
                         <img src="./assets/img/logo.png" alt="" class="nav-logo-img">
                         <span class="nav-logo-name ms-2">MyFoodie</span>
                     </a>
@@ -92,7 +93,7 @@
                                         class="next-icon d-md-none fas fa-angle-double-right"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="mini-game.html">Mini game<i
+                                <a class="nav-link" href="./CatchFood/CatchFood.html">Mini game<i
                                         class="next-icon d-md-none fas fa-angle-double-right"></i></a>
                             </li>
                             <div class="nav-social ms-md-2">
@@ -177,7 +178,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 form-group">
-                                        <input type="text" id="email" class="form-control" placeholder="メールアドレス" required>
+                                        <input type="text" id="email" class="form-control" placeholder="メールアドレス"
+                                            required>
                                         <div class="invalid-feedback">入力してください</div>
                                     </div>
                                 </div>
@@ -241,6 +243,8 @@
                     <a href="#"> <i class="fab fa-discord    "></i> </a>
                     <a href="#"> <i class="fab fa-reddit    "></i> </a>
                 </div>
+                <span class="icon-author">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
             </div>
         </div>
     </footer>
